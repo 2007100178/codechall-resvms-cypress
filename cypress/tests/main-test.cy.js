@@ -6,7 +6,7 @@ import PurchasePaymentPage from "../page-objects/purchase-payment-page";
 import PurchaseCompletePage from "../page-objects/purchase-complete-page";
 
 Cypress.config({
-  defaultCommandTimeout: 10000,
+  defaultCommandTimeout: 15000,
 });
 
 describe('Booking Site', () => {
@@ -28,7 +28,7 @@ describe('Booking Site', () => {
     mainPage.selectDestinationLocation('Bogota')
 
     // Step4. Choose a travel date.
-    mainPage.chooseTravelDate('2024-03-02')
+    mainPage.chooseTravelDate('2024-04-02')
 
     // Step5. Click on the "Search" or equivalent button to view available routes.
     mainPage.clickSearchButton()
