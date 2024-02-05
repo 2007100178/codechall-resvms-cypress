@@ -11,6 +11,18 @@
   "devDependencies": {
     "cypress": "^13.6.4",
     "cypress-iframe": "^1.0.1",
-    "cypress-real-events": "^1.11.0"
+    "cypress-real-events": "^1.11.0",
+    "mocha": "^8.3.2",
+    "mochawesome": "^6.2.2",
+    "mochawesome-report-generator": "^5.2.0"
+  },
+  "cypress": {
+    "reporter": "mochawesome",
+    "reporterOptions": {
+      "reportDir": "cypress/reports",
+      "overwrite": false,
+      "html": false,
+      "json": true
+    }
   }
 }
