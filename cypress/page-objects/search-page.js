@@ -10,12 +10,12 @@ class SearchPage {
 
     getResultContainerByIndex(index) {
         this.elements.resultsContainer().as('resultsContainer')
-        return cy.get('@resultsContainer').find('div[class*="result-with-icons__container"]').eq(index);
+        return cy.get('@resultsContainer').find('div[class*="result-with-icons__container"]').eq(index)
     }
 
     chooseResultByIndex(index) {
         this.getResultContainerByIndex(index).as('resultContainer')
-        cy.get('@resultContainer').find('.result-with-icons__section > button').click({ force: true});
+        cy.get('@resultContainer').find('.result-with-icons__section > button').click({ force: true})
     }
 
 }

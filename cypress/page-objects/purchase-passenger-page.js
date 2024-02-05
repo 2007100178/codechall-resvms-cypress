@@ -30,7 +30,7 @@ class PurchasePassengerPage {
         this.elements.documentNumberSelect().type(passengerData.identification.number)
 
         this.verifyPassengerForm(passengerData)
-        this.elements.continueButton().click()
+        this.elements.continueButton().click().wait(5000)
     }
 
     verifyPassengerForm(passengerData) {

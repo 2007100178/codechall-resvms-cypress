@@ -53,7 +53,7 @@ Follow these steps:
 2. Check the reported results in the command line output.
 3. Detailed test reports can be found in the `cypress/reports` directory.
 
-### Option 3: Using GitHub Actions (Under construction)
+### Option 3: Using GitHub Actions
 
 1. Navigate to the "Actions" tab of the repository on GitHub.
 2. Manually trigger the tests.

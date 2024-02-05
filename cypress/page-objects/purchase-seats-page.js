@@ -21,7 +21,7 @@ class PurchaseSeatsPage {
     }
 
     clickContinueButton() {
-        this.elements.continueButton().click();
+        this.elements.continueButton().click()
     }
 
 }

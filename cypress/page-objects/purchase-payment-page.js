@@ -41,7 +41,7 @@ class PurchasePaymentPage {
         //this.elements.cardHolderDocumentNumberInput().click().type(paymentData.identification.number)
         //this.elements.cardHolderEmailInput().click().type(paymentData.email)
 
-        this.elements.continueButton().click();
+        this.elements.continueButton().click()
     }
 
 }
