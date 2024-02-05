@@ -1,0 +1,19 @@
+{
+
+  "name": "APRO",
+  "last_name": "Test",
+  "email": "test_user_719388596@testuser.com",
+  "birthDate": "07-11-1995",
+  "nationality": "Colombia",
+  "phone": "81123456",
+  "credit_card": {
+    "number": "5474925432670366",
+    "expiration_date": "11/25",
+    "security_code": "123"
+  },
+  "identification": {
+      "type": "Cédula de ciudadanía",
+      "number": "123456789"
+  }
+
+}
